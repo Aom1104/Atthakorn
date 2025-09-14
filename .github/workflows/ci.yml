@@ -1,0 +1,26 @@
+ name: Atthakorn Chamraschit
+ version: 1.0
+ enadled: true
+   tags:
+   - devops
+   - yaml
+   - config
+   #String
+   title:"DevOps Training"
+
+   # Number
+   retries: 3
+
+   # Boolean
+   debug: true
+
+   # List
+   servers:
+    -server1
+    -server2
+    -server3
+
+    # Dictionary (Object)
+    database:
+     host: localhost
+     port: 3306
